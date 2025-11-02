@@ -10,11 +10,11 @@ The scripts provided are the primary analysis pipelines used to generate the mac
 
 The provided Python scripts (`.py`) correspond to the main analyses as follows:
 
-* `Random Forest.py`: Executes the  Random Forest modeling pipeline. (Related to Figure 2A).
+* `Random Forest.py`: Executes the  Random Forest modeling pipeline (Related to Figure 2A).
 
 * `Stable Network Construction.py`: Runs the pipeline to construct the GDM and Non-GDM co-occurrence networks from the OTU tables and identifies the stable core microbial guild (XNP_Guild1) (Related to Extend Figure 5).
 
-* `Topological analysis.py`: Performs topological analysis (e.g., centrality, clustering coefficient, density) on the networks generated in the previous step.(Related to Figure 4D and Figure 4E)
+* `Topological analysis.py`: Performs topological analysis (e.g., centrality, clustering coefficient, density) on the networks generated in the previous step (Related to Figure 4D and Figure 4E)
 
 * `Z-score Visualization.py`: Compares the topological metrics of the observed networks against 1,000 random networks to generate Z-scores for robustness testing (Related to Figure 3B and Figure 4D).
 
