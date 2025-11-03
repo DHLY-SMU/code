@@ -12,7 +12,7 @@ The provided Python scripts (`.py`) correspond to the main analyses as follows:
 
 * `Random Forest.py`: Executes the  Random Forest modeling pipeline. (Related to Figure 2A).
 
-*`GDM_non-GDM_Network_Construction.py`: Runs the pipeline to construct the GDM and non-GDM co-occurrence networks separately from the OTU tables. This script performs filtering, CLR transformation, Spearman correlation, and FDR correction. It generates the network files (Related to Extended Data Figure 3 & 4) and calculates their properties (Related to Extended Data Table 10).
+* `GDM_non-GDM_Network_Construction.py`: Runs the pipeline to construct the GDM and non-GDM co-occurrence networks separately from the OTU tables. This script performs filtering, CLR transformation, Spearman correlation, and FDR correction. It generates the network files (Related to Extended Data Figure 3 & 4) and calculates their properties (Related to Extended Data Table 10).
 
 * `Stable Network Construction.py`: Loads the GDM and non-GDM network edge lists.It identifies and saves the "stable network" – consisting only of edges present in both networks that share a consistent correlation sign (Related to Extended Data Figure 5)
 
