@@ -28,7 +28,6 @@ The provided Python scripts (`.py`) correspond to the main analyses as follows:
 The analysis pipelines rely on the following key Python libraries:
 
 * `scikit-learn`
-* `shap`
 * `statsmodels`
 * `scipy`
 * `pandas`
